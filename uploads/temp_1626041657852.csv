@@ -1,0 +1,9 @@
+transaction_id,customer_name,increase_amount,decrease_amount,credit_after_update,transaction_date,receipt,processed_by,auth_name
+25,noor aftab,50,0,300,2021-07-10::23:03,http://192.168.100.6:3000/5623e3cb-6d82-4025-89a3-036ad0622256.jpg,muhammad usama,Usama
+26,noor aftab,0,100,200,2021-07-10::23:03,http://192.168.100.6:3000/dd0730a7-832b-47a9-bdd3-f8bde50358c0.jpg,muhammad usama,Usama
+27,noor aftab,100,0,300,2021-07-11::14:42,http://192.168.100.6:3000/576dd5c0-834c-4f40-af7d-3ac3ab2f2eb5.jpg,muhammad usama,
+30,noor aftab,500,0,1500,2021-07-11::15:31,http://192.168.100.6:3000/4cefc41a-658a-4572-9429-8a05066ad06b.jpg,muhammad usama,fg
+31,noor aftab,50,0,1550,2021-07-11::22:08,http://192.168.100.6:3000/be1fcf1f-8118-40ec-a676-54c25ab10340.jpg,muhammad usama,hwka
+32,noor aftab,50,0,1550,2021-07-11::22:08,http://192.168.100.6:3000/be1fcf1f-8118-40ec-a676-54c25ab10340.jpg,muhammad usama,hwka
+33,noor aftab,50,0,1550,2021-07-11::22:08,http://192.168.100.6:3000/be1fcf1f-8118-40ec-a676-54c25ab10340.jpg,muhammad usama,hwka
+34,noor aftab,50,0,1550,2021-07-11::22:08,http://192.168.100.6:3000/be1fcf1f-8118-40ec-a676-54c25ab10340.jpg,muhammad usama,hwka
