@@ -28,6 +28,13 @@ var upload = multer({ storage: storage, limits: { fieldSize: 2 * 1024 * 1024 }})
 
 
 // Routes
+
+// Test Route
+app.get("/", (req, res) => {
+    res.send("Server is Up and Running")
+});
+
+
 app.post("/check_login", async (req, res) => {
 
     var { username, password } = req.body;
