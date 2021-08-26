@@ -1,0 +1,3 @@
+transaction_id,customer_name,increase_amount,decrease_amount,credit_after_update,transaction_date,receipt,processed_by,auth_name
+2,Noor Aftab,50,0,50,2021-08-11::23:11,http://192.168.100.6:3000/ef17915f-047d-476d-95d6-e6a210212fd1.jpg,Muhammad Usama,test auth
+3,Noor Aftab,0,10,40,2021-08-11::23:12,http://192.168.100.6:3000/72fe5765-286a-4387-b8a0-7ffa026cdeb1.jpg,Muhammad Usama,test auth

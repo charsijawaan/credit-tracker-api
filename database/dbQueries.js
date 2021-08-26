@@ -28,9 +28,9 @@ module.exports = {
 
     addCustomer: (firstName, lastName, contactNumber, addressOne, addressTwo, townCity, credit, customerDetails, isBlocked) => {
         return new Promise((resolve, reject) => {
-            let sqlQuery = `INSERT INTO customers(first_name, last_name, contact_number, address_one, address_two, town_city, customer_credit, customer_details, is_blocked)
-                            VALUES(?,?,?,?,?,?,?,?,?)`;
-            conn.query(sqlQuery, [firstName, lastName, contactNumber, addressOne, addressTwo, townCity, credit, customerDetails, isBlocked], (err, rows) => {
+            let sqlQuery = `INSERT INTO customers(first_name, last_name, contact_number, address_one, address_two, town_city, customer_credit, customer_details, is_blocked, is_archived)
+                            VALUES(?,?,?,?,?,?,?,?,?,?)`;
+            conn.query(sqlQuery, [firstName, lastName, contactNumber, addressOne, addressTwo, townCity, credit, customerDetails, isBlocked, 'false'], (err, rows) => {
                 if (err)
                     reject(err);
                 else
